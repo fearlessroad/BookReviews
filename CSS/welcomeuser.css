@@ -1,0 +1,51 @@
+#container{
+			margin: 0 auto;
+			width:700px;
+		}
+		a{
+			color:#009999;
+			text-decoration: none;
+			font-weight:bold;
+		}
+		a:hover{
+			color:#006666;
+		}
+		.column{
+			height:400px;
+			width:300px;
+			padding:10px;
+			margin:0;
+/*			border:1px solid black;*/
+			display:inline-block;
+			vertical-align:top;
+		}
+		p{
+			margin:0;
+		}
+		.books{
+			overflow:scroll;
+			border:1px solid grey;
+			height:250px;
+			width:250px;
+			padding:10px;
+			border-radius:5px;
+		}
+		.quote{
+			color:grey;
+			font-style: italic;
+			font-family:serif;
+		}
+		#header{
+			float:right;
+		}
+		#header ul li{
+			display:inline;
+			text-align:right;
+			float:left;
+			margin:5px;
+		}
+		#header ul{
+			margin:0;
+			padding:0;
+			list-style-type: none
+		}

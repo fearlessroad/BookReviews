@@ -1,0 +1,47 @@
+		#container{
+			margin: 0 auto;
+			height:400px;
+			width:350px;
+			padding:10px;
+			margin:0;
+			display:inline-block;
+			vertical-align:top;
+		}
+		label{
+			font-weight:bold;
+			vertical-align:top;
+			margin:5px;
+		}
+		input, select{
+			margin-left:20px;
+		}
+		p{
+			margin:5px;
+		}
+		.indented{
+			margin-left:50px;
+		}
+		textarea{
+			height:75px;
+			width:200px;
+			margin-left:50px;
+		}
+		button{
+			margin:10px;
+			float:right;
+			background-color:white;
+		}
+		#header{
+			float:right;
+		}
+		#header ul li{
+			display:inline;
+			text-align:right;
+			float:left;
+			margin:5px;
+		}
+		#header ul{
+			margin:0;
+			padding:0;
+			list-style-type: none
+		}
